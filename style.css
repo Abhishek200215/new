@@ -1,0 +1,55 @@
+
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #f1c40f, #e67e22);
+    color: #fff;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0;
+    animation: pulse 1.5s infinite;
+}
+
+/* Animation for marquee-like effect */
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+        color: #fff;
+    }
+    50% {
+        transform: scale(1.1);
+        color: #000;
+    }
+}
+
+.maindiv {
+    text-align: center;
+}
+
+/* Timer */
+.countdown {
+    margin-top: 20px;
+    font-size: 2em;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive Design */
+@media only screen and (max-width: 768px) {
+    h1 {
+        font-size: 2.5em;
+    }
+    .countdown {
+        font-size: 1.5em;
+    }
+}
