@@ -1,6 +1,6 @@
 
     // JavaScript for Countdown Timer
-    const targetDate = new Date('2025-01-30T00:00:00').getTime(); // Change this to your desired date
+    const targetDate = new Date('2025-01-29T00:00:00').getTime(); // Change this to your desired date
     const countdownElement = document.getElementById('countdown');
 
     function updateCountdown() {
